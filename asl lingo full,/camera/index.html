@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Capture Image</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <!--<img src="ASLingo-Logo.png" alt="Logo" class="navbar__logo__image"> -->
+            <a href="/frontend/" id="navbar__logo">ASLingo</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/faqs.html" class="navbar__links"> Daily Missions </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#mission-statement" class="navbar__links"> Mission Statement </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button"> Register/Log In </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="video_container">
+        <video id="video" class="col-6"autoplay="true"></video>
+        <div>
+            <h1 style="text-align: center;">Sign the following ASL Words:</h1>
+            <ul class="list_container col-2">
+                <li>Dog</li>
+                <li>Cat</li>
+                <li>Bird</li>
+                <li>Bear</li>
+                <li>Sandwich</li>
+            </ul>
+            <form id="uploadForm">
+                <label for="avatar">Choose a profile picture:</label>
+                <input type="file" id="avatar" name="avatar" accept="image/*" multiple />
+                <button type="submit">Upload</button>
+              </form>
+            <p id="status"></p>
+        </div>
+    </div>
+    <div class="col-6" style="margin-left: 7vw;">
+        <button id="captureButton">Capture Photo</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

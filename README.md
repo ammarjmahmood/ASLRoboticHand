@@ -1,7 +1,7 @@
 # ASL Robotic Hand - 3d printed
 
 <div align="center">
-  <img src="figure1.png" alt="Hardware Closeup" height ="200" width="400"/> <img src="figure2.png" alt="Demo Photo" width="400"/>
+  <img src="figure1.png" alt="Hardware Closeup" height ="500" width="400"/> <img src="figure2.png" alt="Demo Photo" width="400"/>
   <p><i>Left: Closeup of the robotic hand hardware implementation | Right: Demo photo showing the ASL robotic hand in action</i></p>
 </div>
 

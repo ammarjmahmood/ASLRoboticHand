@@ -1,5 +1,10 @@
 # ASL Robotic Hand - 3d printed
 
+<div align="center">
+  <img src="figure1.png" alt="Hardware Closeup" width="400"/> <img src="figure2.png" alt="Demo Photo" width="400"/>
+  <p><i>Left: Closeup of the robotic hand hardware implementation | Right: Demo photo showing the ASL robotic hand in action</i></p>
+</div>
+
 ## Setup Instructions
 
 ### Ubuntu Linux:
@@ -8,7 +13,6 @@
 sudo apt update
 sudo apt install python3-venv python3-pip
 ```
-
 2. Clone and setup:
 ```bash
 git clone https://github.com/ammarjmahmood/robotic-asl-arm.git
@@ -21,12 +25,10 @@ cd robotic-asl-arm
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
 2. Install Python:
 ```bash
 brew install python
 ```
-
 3. Clone and setup:
 ```bash
 git clone https://github.com/ammarjmahmood/robotic-asl-arm.git
@@ -41,13 +43,11 @@ chmod +x setup.sh  # Make script executable
 wsl --install
 ```
 Restart your computer after installation.
-
 2. Open Ubuntu WSL terminal and install Python:
 ```bash
 sudo apt update
 sudo apt install python3-venv python3-pip
 ```
-
 3. Clone and setup:
 ```bash
 git clone https://github.com/ammarjmahmood/robotic-asl-arm.git
@@ -58,17 +58,14 @@ chmod +x setup.sh
 
 ## Manual Setup (All Platforms)
 If the automated setup doesn't work:
-
 1. Create virtual environment:
 ```bash
 python -m venv venv
 ```
-
 2. Activate virtual environment:
 - Ubuntu/macOS/WSL: `source venv/bin/activate`
 - Windows Command Prompt: `venv\Scripts\activate`
 - Windows PowerShell: `.\venv\Scripts\Activate.ps1`
-
 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
@@ -76,32 +73,26 @@ pip install -r requirements.txt
 
 ## Running the Project
 After setup is complete:
-
 1. Ensure virtual environment is activated:
 ```bash
 source venv/bin/activate  # on Ubuntu/macOS/WSL
 ```
-
 2. Run the main script:
 ```bash
 python asl/asl.py
 ```
 
 ## Troubleshooting
-
 If you encounter permission issues with setup.sh:
 ```bash
 chmod +x setup.sh  # Make script executable
 ```
-
 If you see "command not found python":
 ```bash
 # Ubuntu/WSL
 sudo apt install python3
-
 # macOS
 brew install python
-
 # Windows
 # Download Python installer from python.org
 ```
@@ -110,3 +101,6 @@ brew install python
 - Make sure you have Git installed on your system before starting
 - Python 3.8 or higher is recommended
 - If you encounter any issues, please open an issue on GitHub
+
+## Additional Information
+Please read the attached report for more details, complete bill of materials, and credits.

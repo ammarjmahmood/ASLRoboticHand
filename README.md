@@ -1,4 +1,4 @@
-# Robotic ASL Arm
+# ASL Robotic Hand - 3d printed
 
 ## Setup Instructions
 
